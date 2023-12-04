@@ -10,5 +10,6 @@ To build different types of recommendation systems using the yelp training data 
 [Linear Regression](./competition_linear.py)  
 
 ## Final Results
+**Train RMSE: 0.9722, Validation RMSE: 0.9742, Test RMSE: Ranked #3 out of 300 (numbers undisclosed).**
 The [final model](./competition.py) was mixed using XGBoost, Catboost, and CF with user friends, then refined with grid-search on many different parameters.
-Train RMSE: 0.9722, Validation RMSE: 0.9742, Test RMSE: Ranked #3 out of 300 (numbers undisclosed).
+
